@@ -2,7 +2,7 @@
 
 A crowd-sourced FAQ platform for IIT Ropar where students can browse FAQs, raise queries, and help peers by solving queries. Built with **Next.js 16**, **TypeScript**, and **MongoDB**.
 
-## ✨ Features
+##  Features
 
 - **📚 Browse FAQs** — Search and browse frequently asked questions with real-time search
 - **✋ Raise a Query** — Submit questions and receive a unique ticket ID for tracking
@@ -10,7 +10,7 @@ A crowd-sourced FAQ platform for IIT Ropar where students can browse FAQs, raise
 - **🔒 Admin Panel** — Password-protected dashboard to add and manage FAQs
 - **🎨 Premium Dark UI** — Glassmorphism cards, smooth animations, and responsive design
 
-## 🛡️ Security Features
+##  Security Features
 
 - **SMTP Email Verification** — 6-digit OTP sent on registration; account only activates after email confirmation
 - **Google OAuth Login** — One-click sign-in with Google (auto-registers new users)
@@ -246,7 +246,7 @@ src/
 | Tier 2 | >200 req/min per IP | 5-minute IP ban |
 | Tier 3 | >500 req/min per IP | 30-minute IP ban |
 
-## 🔒 Account Lockout Flow
+##  Account Lockout Flow
 
 ```
 1. User enters wrong password → "2 attempts remaining"
